@@ -39,8 +39,7 @@ public class QueensBoard {
 							int localMin = chessBoard.calculateCost();
 							iteratedQueenPositions[j] = i;
 						}
-						// reset to original queen position
-						//chessBoard.resetQueen(i, j);
+						
 
 				}
 			}
@@ -142,8 +141,6 @@ public class QueensBoard {
 				totalPairsDiagnalLeft = totalPairsDiagnalLeft + (diaginalLeftAttackingPairs.size() - 1);
 		}
 
-		// check mirrored diagonal. couldn't figure out algorithm so solved brute force.
-		// int pairs = checkMirrorDiagonal();
 	
 		totalPairs = totalPairsDiagnalLeft+totalPairsRow;
 		return totalPairs ;
