@@ -1,4 +1,4 @@
-- Eight Queen Puzzle with Hill Climbing 
+# Eight Queen Puzzle with Hill Climbing 
 
 Initial prgram(EightQueens.java) randomly starts the process by placing just one queen at a random place within the chessboard and the rest of the queens are placed avoid any attacking queens with checkPosition() method.
 
